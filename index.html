@@ -10,6 +10,13 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script>
+  			document.addEventListener("contextmenu", function(e) {
+    			if (e.target.tagName === "IMG") {
+      				e.preventDefault(); // silently blocks right click on images
+    			}
+  			});
+		</script>
 	</head>
 	<body class="is-preload">
 
@@ -66,35 +73,36 @@
 
 								</div>
 							</section>
-
-						<!-- Two -->
+<!--
+						<!- Two ->
 							<section id="two">
 								<div class="container">
+									<h3>Examples of some of my works</h3>
 									<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-<!--
-<div class="swiper">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide"><img src="images/pic01.jpg"></div>
-    <div class="swiper-slide"><img src="images/pic01.jpg"></div>
-    <div class="swiper-slide"><img src="images/pic01.jpg"></div>
-  </div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-</div>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script>
-new Swiper('.swiper', { loop: true, navigation: { nextEl: '.	swiper-button-next', prevEl: '.swiper-button-prev' } });
-	</script>
-	-->
+									<div class="swiper">
+									  <div class="swiper-wrapper">
+									    <div class="swiper-slide"><img src="images/scroll1.jpg"></div>
+									    <div class="swiper-slide"><img src="images/scroll2.jpg"></div>
+									    <div class="swiper-slide"><img src="images/scroll3.jpg"></div>
+									  </div>
+									  <div class="swiper-button-next"></div>
+									  <div class="swiper-button-prev"></div>
+									</div>
+									<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+									<script>
+										new Swiper('.swiper', { loop: true, navigation: { nextEl: '.	swiper-button-next', prevEl: '.swiper-button-prev' } });
+									</script>
+-->
+
 									<h3>Things I Can Do</h3>
-									<p>Full stack software engineering. I have a focus on HTML, CSS and Javascript programming.</p>
+									<p>My focus is on full stack software engineering. Here are some of my previous experiences.</p>
 									<ul class="feature-icons">
-										<li class="icon solid fa-code">Write professional quality code</li>
-										<li class="icon solid fa-cubes">Multi-layered thinking</li>
-										<li class="icon solid fa-book">Constantly evolving with the trends</li>
-										<li class="icon solid fa-coffee">Social</li>
-										<li class="icon solid fa-bolt">Quick responses</li>
-										<li class="icon solid fa-users">Group oriented</li>
+										<li class="icon solid fa-code">Cascade Style Sheets</li>
+										<li class="icon solid fa-code">Hypertext Markup Language</li>
+										<li class="icon solid fa-code">Javascript</li>
+										<li class="icon solid fa-code">Node</li>
+										<li class="icon solid fa-code">MongoDB</li>
+										<li class="icon solid fa-code">C++</li>
 									</ul>
 								</div>
 							</section>
