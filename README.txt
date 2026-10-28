@@ -8,7 +8,7 @@ This website is a single-page responsive template built for my personal site and
 Current objectives:
 -Implement an image carousel
 -Implement an email submission form at the bottom of the page
--Link to 100 hours project
+-Links to worked on projects
 
 Credits:
 
