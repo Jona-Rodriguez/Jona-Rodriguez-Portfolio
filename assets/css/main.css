@@ -3143,8 +3143,14 @@ input, select, textarea {
 			}
 
 			.image.main {
-				height: 12em;
+				height: auto;
 			}
+
+				.image.main img {
+					height: auto;
+					position: static;
+					width: 100%;
+				}
 
 		/* Section/Article */
 
